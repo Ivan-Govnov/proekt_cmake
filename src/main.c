@@ -4,6 +4,9 @@
 #include "is_integer.h"
 
 int main() {
+    char a = 'w';
+while (a != 'q'){
+    scanf("%s", &a);
 	char *A_str = NULL;
 	char *B_str = NULL;
 	int a, b;
@@ -49,4 +52,5 @@ int main() {
 	printf("Разность = %i\n", sub(a, b));
 	printf("Программа завершила работу\n");
 	return 0;
+}
 }
